@@ -3,6 +3,11 @@
     src: url("/fonts/Yasmin.otf");
     src: url("/fonts/yasmin-webfont.woff") format("woff");
 }
+@font-face {
+    font-family: "Cervanttis Regular";
+    src: url("/fonts/Cervanttis.ttf");
+    src: url("/fonts/cervanttis-webfont.woff") format("woff");
+}
 @import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
 
 *,
@@ -610,10 +615,7 @@ acronym[title] {
 /*	03. NAVBAR
 /*-----------------------------------------------------------------------------------*/
 .cus-font{
-    font-family: 'yasmin';
-    /* font-family: 'Allura', cursive !important; */
-
-   
+    font-family: 'Cervanttis Regular';
 }
 .navbar {
     z-index: 1008;
