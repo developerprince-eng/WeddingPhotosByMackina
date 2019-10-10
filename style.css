@@ -4,6 +4,11 @@
     src: url("/fonts/yasmin-webfont.woff") format("woff");
 }
 @font-face {
+    font-family: "Montserrat Bold";
+    src: url("/fonts/Montserrat-Bold.otf");
+    src: url("/fonts/montserrat-bold-webfont.woff") format("woff");
+}
+@font-face {
     font-family: "Cervanttis Regular";
     src: url("/fonts/Cervanttis.ttf");
     src: url("/fonts/cervanttis-webfont.woff") format("woff");
@@ -616,6 +621,12 @@ acronym[title] {
 /*-----------------------------------------------------------------------------------*/
 .cus-font{
     font-family: 'Cervanttis Regular';
+}
+.cus-font2{
+    font-family: 'yasmin';
+}
+.cus-font-nav{
+    font-family: 'Montserrat Bold'
 }
 .navbar {
     z-index: 1008;
